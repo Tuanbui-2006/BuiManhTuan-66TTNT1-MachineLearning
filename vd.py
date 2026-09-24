@@ -12,4 +12,5 @@ def myGD1(x0, eta):
     return (x,it)
 grad(5)
 cost(5)
-myGD1(5,0.1)
+myGD1(5,0.1)   
+
