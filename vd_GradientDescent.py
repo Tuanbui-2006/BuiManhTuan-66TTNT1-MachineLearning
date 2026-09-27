@@ -10,7 +10,7 @@ def myGD1(x0, eta):
             break
         x.append(x_new)
     return (x,it)
-grad(5)
-cost(5)
-myGD1(5,0.1)   
+print(grad(5))
+print(cost(5))
+print(myGD1(5,0.1))
 
