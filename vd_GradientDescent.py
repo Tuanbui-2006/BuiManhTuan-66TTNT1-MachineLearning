@@ -1,7 +1,7 @@
 def grad(x):
-    return 2*x
+    return 4*x - 4
 def cost(x):
-    return 2**x -2
+    return 2*2**x - 4*x + 5 
 def myGD1(x0, eta): 
     x = [x0]
     for it in range (100):
@@ -12,5 +12,5 @@ def myGD1(x0, eta):
     return (x,it)
 print(grad(5))
 print(cost(5))
-print(myGD1(5,0.1))
+print(myGD1(5,0.2))
 
